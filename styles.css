@@ -1,6 +1,7 @@
 /* Fonts */
-/* MS MADI */
-@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+/* MS Madi & Funnel Display*/
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Ms+Madi&display=swap');
+
 
 * {
     margin: 0;
@@ -13,12 +14,39 @@ body {
     background-size: cover;
 }
 
+/* Colors */
+.red-highlights {
+    color: #ef233c;
+}
+
+/* Header */
 .header {
     font-family: "Ms Madi", cursive;
     font-size: 25px;
     font-weight: 700;
     font-style: normal;
-    text-align: center;
+    /* text-align: center; */
     padding: 5px;
     color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Hero test */
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+
+.main-hero {
+    color: #fff;
+    font-family: "Funnel Display", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 60px;
+    text-align: center;
 }
