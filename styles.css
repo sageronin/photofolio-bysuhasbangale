@@ -1,0 +1,18 @@
+/* Fonts */
+/* MS MADI */
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    font-family: "Ms Madi", cursive;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    padding: 5px;
+    background-color: aquamarine;
+}
