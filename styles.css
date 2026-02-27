@@ -7,6 +7,12 @@
     padding: 0;
 }
 
+body {
+    background-image: url(assets/backgrounds/main-hero-cover-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .header {
     font-family: "Ms Madi", cursive;
     font-size: 25px;
@@ -14,5 +20,5 @@
     font-style: normal;
     text-align: center;
     padding: 5px;
-    background-color: aquamarine;
+    color: #f0f8ff;
 }
